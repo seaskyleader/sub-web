@@ -503,7 +503,7 @@ export default {
         message: h(
           "i",
           { style: "color: teal" },
-          "本链接平台属于免费公益项目，安全可靠，请放心使用。"
+          "新手请使用基础模式！"
         )
       });
     },
