@@ -210,7 +210,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://seasky.cc:25500/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -498,12 +498,12 @@ export default {
       const h = this.$createElement;
 
       this.$notify({
-        title: "隐私提示",
+        title: "温馨提示",
         type: "warning",
         message: h(
           "i",
           { style: "color: teal" },
-          "各种订阅链接（短链接服务除外）生成纯前端实现，无隐私问题。默认提供后端转换服务，隐私担忧者请自行搭建后端服务。"
+          "本链接平台属于免费公益项目，安全可靠，请放心使用。"
         )
       });
     },
