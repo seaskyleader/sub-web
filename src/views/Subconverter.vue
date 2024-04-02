@@ -26,12 +26,7 @@
               </el-form-item>
 
               <div v-if="advanced === '2'">
-                <el-form-item label="后端地址:">
-                  <el-autocomplete style="width: 100%" v-model="form.customBackend" :fetch-suggestions="backendSearch"
-                    placeholder="默认后端：http://seasky.cc:25500/sub?">
-                    <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
-                  </el-autocomplete>
-                </el-form-item>
+                
                 <el-form-item label="远程配置:">
                   <el-select v-model="form.remoteConfig" allow-create filterable placeholder="请选择" style="width: 100%">
                     <el-option-group v-for="group in options.remoteConfig" :key="group.label" :label="group.label">
